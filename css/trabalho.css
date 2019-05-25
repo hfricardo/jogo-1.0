@@ -1,0 +1,176 @@
+  .lista
+  {
+    display: table;
+
+  }
+  .lista li
+  {
+     text-align: center;
+  }
+  .limpa
+  {
+    color:black !important;
+    border-radius:3px;
+  }
+  .pontas, .lendo
+  {
+    background-color: orange !important;
+    color:black !important;
+    border-radius:3px;
+    padding:3px;
+  }
+  .centro, .gravando
+  {
+    background-color: red !important;
+    color:white !important;
+    border-radius:3px;
+    padding:3px;
+  }
+  .marca{
+    border:2px solid red !important;
+  }
+  .marca1
+  {
+    background-color: orange !important;
+  }
+  .varrendo1
+  {
+  background-color: #eeeeee !important;
+    color:red !important;
+    border-radius:3px;
+    padding:3px;  
+  }
+  .varrendo2
+  {
+  background-color: #bbbbbb !important;
+    color:red !important;
+    border-radius:3px;
+    padding:3px;  
+  }
+  .preto
+  {
+    background-color: #000 !important;
+    color:orange !important;
+    border-radius:3px;
+    padding:3px;  
+  }
+  .cssbucket
+  {
+    float:left;
+    border:1px solid gray;
+    width:30px;
+    color:black;
+    font-size: x-small;
+    margin-left: 3px;
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  .cssbucket div:first-child
+  {
+    background-color: blue;
+    color: white;
+  }
+  .btn
+  {
+    font-size: 0.7em;
+  }
+  .tblMov tr td{
+    border:1px solid gray;
+  }
+  .tblMov tr:nth-child(1) td
+  {
+    background-color: #17A2B8;
+    color: white;
+  }
+    .tblMov tr:nth-child(2) td
+  {
+    background-color: #FFC107;
+  }
+    .tblMov tr:nth-child(3) td
+  {
+    background-color: #6C757D;
+    color: white;
+  }
+    .tblMov tr:nth-child(4) td
+  {
+    background-color: #8C80FF;
+  }
+  .tblMov tr td:last-child{
+    width:30px;
+    text-align: center;
+
+  }
+
+
+  .tblPilha tr td
+  {
+    border:3px solid #eee;
+    border-left:4px solid #83C0EF;
+    border-right:4px solid #83C0EF;
+    width:60px;
+    height: 20px;
+    text-align: center;
+  }
+  
+  .tblFila tr td
+  {
+    border:3px solid #eee;
+    border-left:4px solid #87C540;
+    border-right:4px solid #87C540;
+    width:60px;
+    height: 20px;
+    text-align: center;
+  }
+
+  .btn1
+  {
+    float: left;
+    padding-left:6px; 
+    padding-right:6px;
+    background-color: #ffffff55;
+    margin-left:9px;
+    margin-top: 9px;
+    border-radius:4px;
+  }
+  .tblfila tr td div
+  {
+    background-color: #87C540;
+    position: relative;
+ 
+     z-index: 999;
+  }
+    .tblpilha tr td div
+  {
+   background-color: #83C0EF;
+    position: relative;
+    z-index: 999;   }
+
+  .tbllst tr td div,  .tbllst tr td div
+  {
+    position: relative;
+    background-color: silver;
+    z-index: 999;
+  }
+  .tbllst tr td{
+    border:1px solid #eee;
+  }
+
+  .tbllst tr td
+  {
+    background-color: transparent;
+    width:60px;
+    height: 20px;
+    text-align: center;
+  }
+  .cat0{
+    background-color: red !important;
+    color: white;
+  }
+  .cat1{
+    background-color: orange !important;
+  }
+  .cat2{
+    background-color: green !important; 
+      color: white;
+  }
