@@ -5,7 +5,9 @@ function novaLista(){   									//CRIA UM OBJETO LISTA
 
 	
 	const novoJogador = (nome,posicao)=>{					//CRIA UM OBJETO NODE
+		var _nextNode;
 		return{
+			nextNode:_nextNode,
 			strNome:nome,									//PROPRIEDADE (NOME) DO OBJETO JOGADOR
 			intPosicao:posicao,								//PROPRIEDADE (INDICE) DO OBJETO JOGADOR
 			mostrar:() =>mostrar_jogador(posicao, nome),	//METODO PARA MOSTRAR O JOGADOR
